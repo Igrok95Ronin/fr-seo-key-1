@@ -17,12 +17,10 @@
     height: 100%;
 }
 .price__title {
-    @include h1Title;
+    @include h2Title;
 }
 .price__right {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
 }
 .price__txt {
     line-height: 20px;

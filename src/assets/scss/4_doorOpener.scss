@@ -1,0 +1,22 @@
+.doorOpener {
+    margin-top: 50px;
+}
+.doorOpener__box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.doorOpener__title {
+    @include h2Title;
+    transform:translateY(0)
+}
+.doorOpener__txt {
+    line-height: 20px;
+    padding: 0 10px;
+}
+.doorOpener__ul {
+    list-style: disc;
+    padding: 0 10px;
+    padding-left: 30px;
+
+}
