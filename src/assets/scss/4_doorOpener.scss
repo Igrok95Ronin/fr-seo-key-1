@@ -10,6 +10,9 @@
     @include h2Title;
     transform:translateY(0)
 }
+.doorOpener__sibTitle{
+    @include h3Title;
+}
 .doorOpener__txt {
     line-height: 20px;
     padding: 0 10px;

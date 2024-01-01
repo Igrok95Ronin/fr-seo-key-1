@@ -1,3 +1,18 @@
+@media(max-width: 767px) {
+    .header__box,
+    .locksmith__box,
+    .price__box,
+    .servicesLocksmith__box
+     {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .openingSafe__box,
+    .comments__allWrapper {
+        grid-template-columns: 1fr;
+        gap: 20px; 
+    }
+}
 @media(max-width: 500px) {
     .btnFixedD {
         display: none;

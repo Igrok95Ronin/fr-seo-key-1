@@ -9,14 +9,15 @@
 .openingSafe__left {
     display: flex;
     flex-direction: column;
-    gap: 20px
-
+    gap: 20px;
 }
 .openingSafe__title{
     @include h2Title;
     transform: translateY(0);
 }
 .openingSafe__txt {
+    padding: 0 10px;
+    line-height: 20px;
 }
 .openingSafe__right {
     max-width: 100%;
@@ -25,4 +26,5 @@
 .openingSafe__img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
